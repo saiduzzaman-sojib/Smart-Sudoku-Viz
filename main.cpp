@@ -105,7 +105,7 @@ bool solveVisual(RenderWindow &window) {
 int main() {
     RenderWindow window(VideoMode({(unsigned int)(N * CELL_SIZE), (unsigned int)(N * CELL_SIZE)}), "Sudoku Visualizer");
 
-    if (!font.openFromFile("arial.ttf")) {
+    if (!font.openFromFile("Arial.ttf")) {
         cout << "Error loading font!" << endl;
         return -1;
     }
