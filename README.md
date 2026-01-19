@@ -51,6 +51,7 @@ g++ -std=c++17 main.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graph
 ```bash
 ./main
 ```
+> **⚠️ Important:** Ensure that the `Arial.ttf` font file is present in the same directory as the executable file, otherwise the application will not launch.
 ## ⌨️ Controls
 
 | Key | Action |
